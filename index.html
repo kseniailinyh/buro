@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Дизайн-Бюро</title>
+  <link rel="stylesheet" href="./css/_index.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,500;1,400;1,600&family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+  <link rel='shortcut icon' href='images/favicon.ico'>
+</head>
+
+<body>
+  <div class="page-layout">
+    <aside class="page-layout__sidebar sidebar">
+      <a href="#hello">
+        <img class="sidebar__logo" src="./images/logo.svg" alt="Контур" />
+      </a>
+
+      <nav class="sidebar__navigation" data-navigation></nav>
+
+      <p class="sidebar__help">
+        В любой непонятной ситуации пишите <a href="mailto:ksenia_ilinyh@skbkontur.ru">Ксюше</a>
+      </p>
+    </aside>
+
+    <main class="page-layout__content main">
+
+
+      <!-- Основная секция -->
+      <section class="section" id="hello">
+        <h1 class="site-name">Дизайн<br>бюро</h1>
+        <h2 class="hidden">Дизайн-бюро</h2>
+        <p class="lead">Мы&nbsp;проектируем интерфейсы<br>и&nbsp;помогаем командам<br>без проектировщиков</p>
+
+        <img class="image" src="./images/hello.svg" alt="" />
+      </section>
+
+
+      <!-- Кому подходит бюро -->
+      <section class="section" id="users">
+        <h2 class="heading">Кому подходит Бюро</h2>
+
+        <div class="users-list">
+          <p class="users-list__item">
+            Проектам, где меньше 4&nbsp;разработчиков
+          </p>
+          <p class="users-list__item">
+            Проектам, которым нужна временная помощь
+          </p>
+          <p class="users-list__item">
+            Стартапам для проверки гипотез
+          </p>
+        </div>
+
+        <h3 class="heading-example">
+          Например
+        </h3>
+
+        <p class="text-medium">
+          Cтартап проверяет гипотезу и&nbsp;ему пока не&nbsp;нужен дизайнер на&nbsp;полную ставку. Стартап обращается в&nbsp;Бюро, и&nbsp;кто-то из проектировщиков уделяет их&nbsp;задаче&nbsp;30% рабочего времени. Менеджеру стартапа не&nbsp;нужно нанимать и&nbsp;адаптировать проектировщика, обеспечивать его задачами, заниматься развитием и&nbsp;оценкой. Он&nbsp;получает готовую задачу в&nbsp;таком же&nbsp;виде, как её&nbsp;сделал&nbsp;бы проектировщик в&nbsp;продукте.
+        </p>
+
+        <img class="image" src="./images/users.svg" alt="" />
+      </section>
+
+
+      <!-- За чей счет банкет -->
+      <section class="section" id="money">
+        <h2 class="heading">За&nbsp;чей счет банкет</h2>
+
+        <p class="text-medium">
+          У&nbsp;Бюро нет своего бюджета на&nbsp;зарплаты, поэтому у&nbsp;вас должен быть выделен ФОТ на&nbsp;задачу.
+          В&nbsp;конце каждого месяца мы&nbsp;распределяем затраты на&nbsp;ФОТ проектировщиков между проектами,
+          задачами которых занимались.
+        </p>
+
+        <img class="image" src="./images/money.svg" alt="" />
+      </section>
+
+
+      <!-- Какие задачи берем -->
+      <section class="section" id="tasks">
+        <h2 class="heading">Какие задачи берем</h2>
+
+        <p class="text-medium">
+          Всё, что относится к&nbsp;проектированию интерфейсов.
+          Что-то, с&nbsp;чем потом будут работать пользователи.
+          Например, спроектировать фичу в&nbsp;продукте или сделать кликабельный прототип для проверки гипотезы.
+        </p>
+
+        <h3 class="heading-example">
+          Мы&nbsp;не&nbsp;делаем
+        </h3>
+
+        <ul class="list">
+          <li class="list__item">сайты и&nbsp;лэндинги&nbsp;— всё равно лучше <a href="https://staff.skbkontur.ru/group/1270?action=about" target="_blank">Веб-студии</a> не&nbsp;сделаем</li>
+          <li class="list__item">иллюстрации, баннеры, фирстили, логотипы — нам такое сложно, а&nbsp;<a href="https://staff.skbkontur.ru/department/1773" target="_blank">коммуникационным дизайнерам</a> нет</li>
+          <li class="list__item">исследования пользователей, юзабилити-тестирования – никто не&nbsp;сравнится с&nbsp;Эмилией и&nbsp;<a href="https://staff.skbkontur.ru/department/3817" target="_blank">UX-lab</a></li>
+          <li class="list__item">разработку и&nbsp;вёрстку. С&nbsp;этим помогут <a href="https://staff.skbkontur.ru/department/3877" target="_blank">рейнджеры</a></li>
+        </ul>
+
+        <img class="image" src="./images/tasks.svg" alt="" />
+      </section>
+
+
+      <!-- Как передать задачу -->
+      <section class="section" id="give">
+        <h2 class="heading">Как передать задачу</h2>
+
+        <p class="text-medium">
+          Напишите на&nbsp;почту <a href="mailto:ksenia_ilinyh@skbkontur.ru?subject=Задача для Бюро">Ксюше Ильиных</a> ответы на&nbsp;вопросы:
+        </p>
+        <br>
+        <ol class="num-list">
+          <li class="num-list__item">Код проекта, на&nbsp;который можно будет поставить затраты на&nbsp;ФОТ.</li>
+          <li class="num-list__item">Что нужно сделать? Какие проблемы в&nbsp;продукте нужно решить? </li>
+          <li class="num-list__item">Зачем делается эта задача? Что случится, если её&nbsp;не&nbsp;делать? </li>
+          <li class="num-list__item">Объём задачи. Постарайтесь приблизительно сверху оценить трудозатраты проектировщика (в&nbsp;днях&nbsp;/ неделях&nbsp;/ месяцах). </li>
+          <li class="num-list__item">Что готово к&nbsp;проектированию? Насколько завершена аналитика по&nbsp;задаче? Были&nbsp;ли какие-то исследования — юзабилити-тестирования, опросы, обратная связь от&nbsp;пользователей?</li>
+          <li class="num-list__item">Есть&nbsp;ли у&nbsp;задачи внешний срок? Чем он&nbsp;продиктован? Что будет, если вы&nbsp;не&nbsp;успеете?</li>
+        </ol>
+
+        <br>
+        <p class="text-medium">
+          Мы&nbsp;внутри Бюро обсудим задачу, после чего я&nbsp;напишу вам, кто и&nbsp;когда сможет ею&nbsp;заняться. Дальше вы&nbsp;будете общаться с&nbsp;дизайнером напрямую.
+        </p>
+
+        <img class="image" src="./images/give.svg" alt="" />
+      </section>
+
+
+      <!-- Когда мы возьмём задачу  -->
+      <section class="section" id="when">
+        <h2 class="heading">Когда мы&nbsp;возьмём задачу</h2>
+
+        <p class="text-medium">
+          Обычно все дизайнеры Бюро заняты текущими задачами, поэтому мы&nbsp;не&nbsp;сможем взять задачу завтра.
+          Приходите заранее: за&nbsp;несколько недель или месяц, тогда мы&nbsp;всё спланируем.
+          Если&nbsp;у&nbsp;вас срочная небольшая задача, напишите, возможно, получится что-то придумать.
+        </p>
+
+        <img class="image" src="./images/when.svg" alt="" />
+      </section>
+
+
+      <!-- Как работаем над задачей  -->
+      <section class="section" id="process">
+        <h2 class="heading">работа над задачей</h2>
+
+        <p class="text-medium">
+          На&nbsp;первой встрече вы&nbsp;знакомитесь с&nbsp;проектировщиком и&nbsp;обсуждаете задачу. После этого у&nbsp;проектировщика появляются вопросы, они обсуждаются письменно в&nbsp;почте или чате, либо на&nbsp;встрече. Проектировщик сориентирует, когда будет следующий чек-поинт: на&nbsp;нём обсуждается концептуальное решение. На&nbsp;следующем чек-поинте уже обсуждаются детали.
+          <br><br>
+          Таких чек-поинтов может быть много, зависит от&nbsp;задачи, но&nbsp;сами итерации не&nbsp;больше недели. Вы&nbsp;всегда будете знать, что сейчас происходит с&nbsp;задачей и&nbsp;когда она будет готова к&nbsp;разработке.
+          <br><br>
+          Когда проектировщик заканчивает проектировать, он&nbsp;организует презентацию. Обычно это встреча, где он&nbsp;рассказывает про задачу и&nbsp;решение, показывает что в&nbsp;итоге получилось. На&nbsp;эту встречу можно звать разработчиков.
+        </p>
+
+        <h3 class="heading-example">
+            Это еще не&nbsp;всё
+        </h3>
+
+        <p class="text-medium">
+          После того, как задача передана в&nbsp;разработку, работа проектировщика не&nbsp;заканчивается. Во&nbsp;время разработки могут появиться вопросы по&nbsp;дизайну, либо выясниться какие-то нюансы, которых не&nbsp;было на&nbsp;старте. Это нормально, и&nbsp;поэтому проектировщики Бюро поддерживают задачи во&nbsp;время разработки: отвечают на&nbsp;вопросы и&nbsp;дорабатывают детали, если это необходимо.
+          <br><br>
+          Также мы&nbsp;хотим контролировать результат. Ответственность проектировщика&nbsp;&mdash; работающий продукт, а&nbsp;не&nbsp;красивые макеты. Параллельно с&nbsp;этапом тестирования подключите проектировщика, чтобы он&nbsp;посмотрел на&nbsp;реализацию и&nbsp;проверил, что всё хорошо.
+        </p>
+
+        <img class="image" src="./images/process.svg" alt="" />
+      </section>
+    </main>
+  </div>
+
+  <script src="./js/navigation.js"></script>
+</body>
+
+</html>
