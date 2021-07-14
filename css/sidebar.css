@@ -1,0 +1,40 @@
+.sibebar {
+  background: #ECE8E2;
+}
+
+.sidebar__logo {
+  display: block;
+  margin: .5rem auto 0;
+}
+
+.sidebar__help {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .sidebar {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: sticky;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    height: 100vh;
+    padding: 6.5rem 2.5rem 2.5rem;
+    background: #ECE8E2;
+  }
+  
+  .sidebar__logo {
+    margin: 0 auto 3rem;
+  }
+
+  .sidebar__navigation {
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  .sidebar__help {
+    display: block;
+  }
+}

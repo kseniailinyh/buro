@@ -1,0 +1,21 @@
+.section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 0 1rem;
+}
+
+.section:first-child {
+  padding-top: 1rem;
+}
+
+@media screen and (min-width: 1200px) {
+  .section {
+    padding: 5rem 0 3rem;
+    min-height: 100vh;
+    position: relative;
+  }
+
+  .section:first-child {
+    padding-top: 6rem;
+  }
+}

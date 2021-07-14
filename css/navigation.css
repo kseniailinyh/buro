@@ -1,0 +1,31 @@
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  text-transform: lowercase;
+}
+
+.navigation__item {
+  margin: 0 1.25rem .5rem;
+}
+
+@media screen and (min-width: 1200px) {
+  .navigation {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .navigation__item {
+    margin: 0 0 1rem;
+    color: #1E1E1C;
+    font-size: 1.25rem;
+    line-height: 1.4;
+    list-style: none;
+  }
+
+  .navigation__item a {
+    box-shadow: 0 1px currentColor;
+    color: #1E1E1C;
+    text-decoration: none;
+  }
+}

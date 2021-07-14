@@ -1,0 +1,15 @@
+.main {
+  background: #F5F2ED;
+  padding: 2rem 3rem;
+}
+
+@media screen and (min-width: 1200px) {
+  .main {
+    flex-grow: 1;
+    background: #F5F2ED;
+    padding: 0 10rem 0;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    height: 100vh;
+  }
+}
